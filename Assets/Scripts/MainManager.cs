@@ -25,12 +25,6 @@ public class MainManager : MonoBehaviour
         LoadColor();
     }
 
-    public void NewColorSelected(Color color)
-    {
-        // add code here to handle when a color is selected
-        MainManager.Instance.TeamColor = color;
-    }
-
     [System.Serializable]
     class SaveData
     {
